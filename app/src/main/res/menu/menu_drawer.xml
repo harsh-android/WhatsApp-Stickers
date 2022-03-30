@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@drawable/ic_home"
+            android:title="Dashboard"/>
+
+        <item
+            android:id="@+id/sticker"
+            android:icon="@drawable/ic_outline_add_24px"
+            android:title="Create StickerPack"/>
+
+        <item
+            android:id="@+id/image"
+            android:icon="@drawable/ic_add_a_photo_white_24dp"
+            android:title="Create Image As Sticker"/>
+
+        <item
+            android:id="@+id/text"
+            android:icon="@drawable/ic_text"
+            android:title="Create Text As Sticker"/>
+
+    </group>
+
+    <item
+        android:title="">
+
+        <menu>
+
+            <group>
+
+                <item
+                    android:id="@+id/shareapp"
+                    android:icon="@drawable/ic_share"
+                    android:title="@string/shareapp"/>
+
+                <item
+                    android:id="@+id/rateus"
+                    android:icon="@drawable/ic_rate"
+                    android:title="@string/rateus"/>
+
+                <item
+                    android:id="@+id/moreapp"
+                    android:icon="@drawable/ic_more"
+                    android:title="@string/moreapp"/>
+
+                <item
+                    android:id="@+id/aboutus"
+                    android:visible="false"
+                    android:icon="@drawable/ic_about"
+                    android:title="@string/aboutus"/>
+
+                <item
+                    android:id="@+id/exit"
+                    android:icon="@drawable/ic_exit"
+                    android:title="@string/exit"/>
+
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>
